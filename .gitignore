@@ -18,6 +18,8 @@ yarn-debug.log*
 yarn-error.log*
 .pnp.*
 .cache/
+node_modules
+.pnpm-store/
 
 # --- Environment Variables (Rất quan trọng khi dùng Docker) ---
 .env
