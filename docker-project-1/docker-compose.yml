@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: docker-project-1
+    container_name: first-project
+    ports:
+      - '3000:3000'
+    environment:
+      - WELCOME_MESSAGE=Welcome to NestJS Docker from Compose!
