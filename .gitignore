@@ -1,0 +1,44 @@
+# --- IDEs & OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# --- Node.js (Dùng chung cho Nest, Express, Next) ---
+node_modules/
+/dist/
+/build/
+.npm
+/out/
+.next/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp.*
+.cache/
+
+# --- Environment Variables (Rất quan trọng khi dùng Docker) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# --- Docker ---
+# Thường ta không ignore Dockerfile hay docker-compose.yml
+# Nhưng ta nên ignore dữ liệu của các container DB nếu bạn mount volume ra máy thật
+/data/
+/mongodb_data/
+/postgres_data/
+/mysql_data/
+/redis_data/
+
+# --- Testing ---
+/coverage/
+
+# --- Other ---
+.vercel
+.turbo
