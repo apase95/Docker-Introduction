@@ -28,8 +28,8 @@ docker compose up -d
 The application will be accessible at: http://localhost:3000
 
 ### 3. Common Commands
-|:--:|:--:|
 |Command|Description|
+|:-:|:-:|
 |`docker compose up -d --build`|Rebuild the image and start a new container|
 |`docker compose logs -f`|View live logs from the application|
 |`docker compose down`|Stop and remove containers|
