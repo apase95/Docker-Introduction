@@ -16,7 +16,7 @@ This is a basic NestJS project deployed on Docker using **pnpm**. This project i
 
 ### 1. Clone the project
 ```bash
-git clone <your-url>
+git clone https://github.com/apase95/Docker-Introduction/tree/main/docker-project-1.git
 cd Docker-Introduction/docker-project-1
 
 ```
