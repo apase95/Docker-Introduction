@@ -10,4 +10,8 @@ services:
     ports:
       - '3000:3000'
     environment:
-      - WELCOME_MESSAGE=Welcome to NestJS Docker from Compose!
+      - WELCOME_MESSAGE=Welcome to Docker from Compose!
+    volumes:
+        - .:/usr/src/app
+        - /usr/src/app/node_modules
+    command: pnpm run start:dev
