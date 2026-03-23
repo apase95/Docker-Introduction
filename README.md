@@ -31,7 +31,7 @@ This is a basic NestJS application deployed on Docker using **pnpm**.
 
 ### 1. Clone the repository:
 ```bash
-git clone [https://github.com/apase95/Docker-Introduction.git](https://github.com/apase95/Docker-Introduction.git)
+git clone https://github.com/apase95/Docker-Introduction.git
 cd Docker-Introduction/docker-project-1
 ```
 
@@ -43,14 +43,15 @@ docker compose up -d
 The application will be accessible at: http://localhost:3000
 
 ### 3. Common Docker Commands:
-Command Description
-docker compose up -d --build Rebuild the image and start a new container
-docker compose logs -f View live logs from the application
-docker compose downStop and remove containers
-docker exec -it first-project shAccess the terminal inside the container
+|Command|Description|
+|:-:|:-:|
+|`docker compose up -d --build`|Rebuild the image and start a new container|
+|`docker compose logs -f`|View live logs from the application|
+|`docker compose down`|Stop and remove containers|
+|`docker exec -it first-project sh`|Access the terminal inside the container|
 
 ### 4. Environment Variables Configuration:
-You can customize the application's welcome message by modifying the docker-compose.yml file or passing the variable directly during runtime:
+You can customize the application's welcome message by modifying the `docker-compose.yml` file or passing the variable directly during runtime:
 ```yaml
 environment:
   - WELCOME_MESSAGE="Hello from Github Clone!"
@@ -58,9 +59,9 @@ environment:
 
 ---
 ## 📬 Contact
-Email: hodtduy.work@gmail.com
-LinkedIn: hodangthaiduy
+- Email: hodtduy.work@gmail.com
+- LinkedIn: [hodangthaiduy](https://www.linkedin.com/in/duy-ho-dang-thai-a33159383/)
 
 ---
-Thank you for checking this repository!
+### Thank you for checking this repository!
 Happy coding!
